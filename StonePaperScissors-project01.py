@@ -1,4 +1,4 @@
-#  this tha Stone paper scissors game by using python programs
+#  this tha a Stone paper scissors game by using python programs
 
 # 0 for Rock
 # 1 for Paper
