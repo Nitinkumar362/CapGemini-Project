@@ -37,14 +37,8 @@ else:
     elif user_choice == 0 and computer_choice == 2:
         print("You win.")
 
-    # elif user_choice == 2 and computer_choice == 0:
-    #     print("You win.")
-
     elif computer_choice > user_choice:
         print("You lose.")
 
     elif computer_choice > user_choice:
         print("You win.")
-
-    # elif computer_choice > user_choice:
-    #     print("You win.")
