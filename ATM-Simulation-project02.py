@@ -74,11 +74,3 @@ while attempt < max_attempts:
         if remaining == 0:
             print("Account blocked! Please try again after some time:")
             break
-
-
-
-
-
-
-
-
