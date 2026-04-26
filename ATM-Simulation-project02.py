@@ -26,12 +26,14 @@ while attempt < max_attempts:
             if choice == 1:
                 print(f"Current balance : Rs {balance}")
 
+
             elif choice == 2:
                 deposit_money = int(input("Please enter your deposit amount: "))
                 balance += deposit_money
                 time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 Transcations.append((time , f"deposit_money: Rs {deposit_money}"))
                 print(f"deposit successfull ! New balance : {balance}")
+
 
             elif choice == 3:
                 withdraw_money = int(input("Please enter your withdraw amount: "))
@@ -60,6 +62,9 @@ while attempt < max_attempts:
             else:
                 print("Invali input please select one of the option ")
                 break
+
+
+#for blocking ATM account for using to many attempt or wrong password
 
 
     else:
