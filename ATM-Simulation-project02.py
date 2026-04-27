@@ -1,7 +1,7 @@
 import datetime
 
 print("Welcome to the ATM Simulation")
-password = 114
+password = 9876
 balance = 2000
 Transcations = []
 attempt = 0
